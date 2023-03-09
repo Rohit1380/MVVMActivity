@@ -6,5 +6,5 @@ import androidx.lifecycle.ViewModel
 class ActivityVIewModel:ViewModel() {
 
     var text:MutableLiveData<String> = MutableLiveData("abc")
-    var NUM = MutableLiveData(1)
+  //  var NUM:MutableLiveData<Int> = MutableLiveData(0)
 }
